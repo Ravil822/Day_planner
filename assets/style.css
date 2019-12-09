@@ -1,0 +1,55 @@
+.jumbotron {
+    border-bottom: black solid 10px;
+    text-align: center;
+    color: black;
+}
+
+.table {
+    max-width: 980px;
+    margin: auto;
+}
+
+tr {
+    height: 60px;
+}
+
+td {
+    color: black;
+}
+
+.time-col {
+    width: 100px;
+    text-align: center;
+}
+
+.info-col {
+    background: lightgreen;
+    text-align: center;
+}
+
+.save-col {
+    background: lightblue;
+    width: 100px;
+    text-align: center;
+}
+
+.save-button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+i {
+    padding: 24px 12px;
+}
+
+.user-input {
+    background-color: inherit;
+    height: 52px;
+    width: 100%;
+    border: none;
+}
+@media screen and (max-width:480px){
+    .info-col{
+        width: 60%
+    }
+}
