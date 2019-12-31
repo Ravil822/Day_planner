@@ -1,0 +1,21 @@
+.jumbotron {
+    border-bottom: 8px solid black;
+
+};
+
+table {
+    border-collapse: initial;  
+}
+
+
+.textarea {
+    background: lightgreen;
+}
+
+.form-control{
+    background: lightgreen;
+}
+
+.save {
+    background: lightsteelblue;
+}

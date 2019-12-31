@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Added a link to CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Day planner</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+
+        <h1 class="text-center">Work Day Scheduler</h1>
+        <h3 class="text-center">A simple calendar app for scheduling your work day</h3>
+
+        <div class="text-center" id="timer"></div>
+
+    </div>
+
+    <div class="container">
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <th scope="col time" class="time">9AM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="9"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">10AM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="10"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">11AM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="11"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">12PM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="12"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">1PM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="13"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">2PM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="14"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">3PM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="15"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">4PM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="16"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="col time">5PM</th>
+                    <th class="col textarea"><textarea class="form-control" aria-label="With textarea"
+                            id="17"></textarea></th>
+                    <th scope="col safe" class="save">
+                        <button class="btn"><i class="fa fa-save"></i></button>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </div>
+     <!-- Added a link to Moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+     <!-- Added a link to local js file-->
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
