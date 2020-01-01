@@ -9,7 +9,14 @@ table {
 
 
 .textarea {
-    background: lightgreen;
+    background: lightyellow;
+}
+.align-middle {
+    background: white;
+
+}
+th.col.textarea {
+    padding: 0px;
 }
 
 .form-control{
@@ -23,4 +30,4 @@ table {
 button {
     margin-top: 30%;
 }
-
+ht

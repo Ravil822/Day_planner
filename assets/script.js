@@ -11,7 +11,24 @@ $("#timer").html(currentDate)
 }, 1000);
 
 // change color function 
-var currentHour = m.hours()
+function updateColor(){
+    var currentHour = m.hours(); 
+    $(".form-control").each(function(){
+        var eventHour = $(this).attr("id");
+        // console.log(currentHour);
+        // console.log(eventHour);
+        if (eventHour < currentHour) {
+            $(this).attr("style", "background-color: lightgray")
+        }
+        else if (eventHour == currentHour) {
+            $(this).attr("style", "background-color: lightsalmon")
+        }
+
+    });
+
+
+}
+updateColor(); // call the function
 
 
 
@@ -72,6 +89,7 @@ $(".btn17").on("click", function(event){
     localStorage.setItem("event 5pm", userEvent17 )
 });
 
+
 // get event from the localstorage
 
 function PreviosEvent() {
@@ -85,7 +103,7 @@ function PreviosEvent() {
     $("#16").val(localStorage.getItem("event 4pm"))
     $("#17").val(localStorage.getItem("event 5pm"))
 }
-PreviosEvent()
+PreviosEvent() // call the function
 
 
 
